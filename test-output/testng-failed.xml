@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testing on chrome(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="Learning.Automation_Maven.EditProfile_Amazon">
+        <methods>
+          <include name="quitbrowser"/>
+          <include name="search"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- Learning.Automation_Maven.EditProfile_Amazon -->
+    </classes>
+  </test> <!-- Testing on chrome(failed) -->
+</suite> <!-- Failed suite [Smoke Suite] -->

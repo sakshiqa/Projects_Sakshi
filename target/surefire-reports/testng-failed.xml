@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Testing on chrome(failed)" verbose="0">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="Learning.Automation_Maven.FailedLogintoAmazon">
+        <methods>
+          <include name="quitbrowser"/>
+          <include name="signin"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- Learning.Automation_Maven.FailedLogintoAmazon -->
+      <class name="Learning.Automation_Maven.RegisterNewUser">
+        <methods>
+          <include name="quitbrowser"/>
+          <include name="Registration"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- Learning.Automation_Maven.RegisterNewUser -->
+    </classes>
+  </test> <!-- Testing on chrome(failed) -->
+</suite> <!-- Failed suite [Smoke Suite] -->
